@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Salvatore Luongo :: appunti di cybersecurity e tecnologia</title>
+<meta name="author" content="Salvatore Luongo">
+<meta name="generator" content="BloggoScript 1.2">
+<style type="text/css">
+  body{margin:0;background:#dcd6c2;color:#2b2b2b;font:13px Verdana,Geneva,sans-serif}
+  a{color:#7a2b16;text-decoration:none} a:hover{text-decoration:underline}
+  #wrap{width:760px;margin:0 auto;background:#f4f1e6;border-left:2px solid #b7ad8e;border-right:2px solid #b7ad8e}
+  #head{background:#3b2f1e;color:#f4f1e6;padding:18px 20px;border-bottom:4px solid #7a2b16}
+  #head h1{margin:0;font:bold 26px Georgia,serif;letter-spacing:1px}
+  #head .tag{color:#c9b98f;font-style:italic;font-size:12px}
+  #cols{display:table;width:100%}
+  #main{display:table-cell;width:530px;padding:18px 20px;vertical-align:top}
+  #side{display:table-cell;width:210px;padding:18px 16px;background:#e7e1cf;border-left:1px dashed #b7ad8e;vertical-align:top;font-size:12px}
+  .post{margin-bottom:24px;border-bottom:1px solid #cfc7ab;padding-bottom:14px}
+  .post h2{font:bold 17px Georgia,serif;color:#3b2f1e;margin:0 0 3px}
+  .meta{color:#8a7f61;font-size:11px;margin-bottom:8px}
+  .side h3{font:bold 12px Verdana;color:#7a2b16;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid #b7ad8e;padding-bottom:3px}
+  .side ul{list-style:square;margin:6px 0 16px;padding-left:18px}
+  .counter{font:11px "Courier New";background:#000;color:#0f0;padding:3px 6px;border:1px solid #555}
+  #foot{clear:both;background:#3b2f1e;color:#c9b98f;font-size:11px;text-align:center;padding:10px;border-top:4px solid #7a2b16}
+</style>
+
+<!-- Statistiche Google Analytics del blog -->
+<script type="text/javascript">
+  var GA_MAPS_API_KEY = "AIzaSyBnOFAKEdemoKEY0123456789abcdefghi"; // mappa "dove sono" + analytics
+</script>
+</head>
+<body>
+
+<div id="wrap">
+
+  <div id="head">
+    <h1>Salvatore Luongo</h1>
+    <span class="tag">appunti di cybersecurity, tecnologia e prove sul campo &bull; dal 2003</span>
+  </div>
+
+  <div id="cols">
+    <div id="main">
+
+      <div class="post">
+        <h2>Stampare in automatico le email e gli allegati in arrivo su Outlook</h2>
+        <div class="meta">Pubblicato il 18 marzo 2003 &bull; 4 commenti</div>
+        Una macro VBA che stampa da sola ogni email in arrivo e i suoi allegati, con la parte
+        che di solito manca: come farla partire all'arrivo della posta. <a href="#">[continua]</a>
+      </div>
+
+      <div class="post">
+        <h2>Come ripristinare la partizione di boot UEFI quando Windows non si avvia</h2>
+        <div class="meta">Pubblicato il 2 marzo 2003 &bull; 11 commenti</div>
+        Windows non parte piu' per colpa della partizione EFI danneggiata? Si recupera dal
+        Prompt dei comandi con bcdboot, prima senza formattare nulla. <a href="#">[continua]</a>
+      </div>
+
+      <div class="post">
+        <h2>Windows Forensics: la prova d'esecuzione di un programma con PECmd</h2>
+        <div class="meta">Pubblicato il 24 febbraio 2003 &bull; 7 commenti</div>
+        Un programma e' stato eseguito su quel PC? Quante volte e quando? I file Prefetch di
+        Windows lo sanno, e con PECmd si leggono in pochi secondi. <a href="#">[continua]</a>
+      </div>
+
+      <div class="post">
+        <h2>John the Ripper: lo scassinatore di password</h2>
+        <div class="meta">Pubblicato il 10 febbraio 2003 &bull; 15 commenti</div>
+        John the Ripper mette alla prova la robustezza delle password: come recupera quelle di
+        un file ZIP, di un PDF e di un account di sistema Linux. <a href="#">[continua]</a>
+      </div>
+
+      <!-- Newsletter del blog (gestita con Mailchimp) -->
+      <form onsubmit="return iscrivi()" style="background:#e7e1cf;border:1px solid #b7ad8e;padding:10px">
+        <b>Iscriviti alla newsletter:</b><br>
+        <input type="text" id="mail" size="28" value="la-tua@email.it">
+        <input type="submit" value="Iscrivimi">
+      </form>
+
+    </div>
+
+    <div id="side">
+      <h3>Chi sono</h3>
+      Smanetto, provo e racconto. Qui trovi i miei appunti.
+
+      <h3>Categorie</h3>
+      <ul>
+        <li><a href="#">Windows</a></li>
+        <li><a href="#">Sicurezza</a></li>
+        <li><a href="#">Forensics</a></li>
+      </ul>
+
+      <h3>Blogroll</h3>
+      <ul>
+        <li><a href="#">Hacker Journal</a></li>
+        <li><a href="#">Red Hot Cyber</a></li>
+      </ul>
+
+      <h3>Visite</h3>
+      <span class="counter">000173</span>
+      <br><br>
+      <font size="1">Best viewed in IE6 @ 1024x768</font>
+    </div>
+  </div>
+
+  <div id="foot">
+    &copy; 1999-2003 Salvatore Luongo &bull; powered by BloggoScript
+  </div>
+</div>
+
+<!-- ======================= SCRIPT DEL BLOG ======================= -->
+<script type="text/javascript">
+// Configurazione del blog (DEMO - chiavi FINTE, non funzionanti)
+var CONFIG = {
+  // deploy automatico del blog su GitHub Pages
+  githubDeployToken: "ghp_1A2b3C4d5E6f7G8h9I0jK1l2M3n4O5p6Q7r8",
+  // invio delle email di notifica ai commenti (SendGrid)
+  sendgridApiKey:    "SG.aBcDeFgHiJkLmNoPqRsTuv.aBcDeFgHiJkLmNoPqRsTuvWxYz0123456789abcdeFGH"
+};
+
+function iscrivi(){ alert("Grazie! (demo)"); return false; }
+
+// carica la mappa "dove sono" con la chiave in cima alla pagina
+(function(){
+  var s=document.createElement("script");
+  s.src="https://maps.googleapis.com/maps/api/js?key="+GA_MAPS_API_KEY;
+  document.body.appendChild(s);
+})();
+</script>
+
+</body>
+</html>
